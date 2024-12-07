@@ -1,0 +1,99 @@
+/* COPYRIGHT (C) 2024 - SWATHYMOL SAJEEV | GNU General Public License v3.0
+
+This program is free software: you can redistribute it and/or modify it under the terms of the GNU General Public License as published by the Free Software Foundation, 
+either version 3 of the License, or (at your option) any later version. This program is distributed in the hope that it will be useful,but WITHOUT ANY WARRANTY; 
+without even the implied warranty of MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the GNU General Public License for more details.
+
+You should have received a copy of the GNU General Public License along with this program.  If not, see <https://www.gnu.org/licenses/>. */
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: sans-serif;
+    background: linear-gradient(120deg, #3494e6, #ec6ead);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+}
+
+.container{
+    background-color: #fff;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.2);
+    border-radius: 12px;
+    overflow: hidden;
+    text-align: center;
+    padding: 30px;
+    width: auto;
+}
+
+h1{
+    font-size: 28px;
+    margin-bottom: 20px;
+}
+
+.color-display{
+    width: 400px;
+    height: 200px;
+    margin: 20px auto;
+    border-radius: 12px;
+   /* background-color: aqua; */
+    transition: background-color 0.3s ease-in-out;
+}
+
+.control{
+    display: flex;
+    align-items: center;
+    margin: 10px 0px 10px 80px;
+    width: 400px;
+}
+
+.slider-container{
+    display: flex;
+    align-items: center;
+    width: 80%;
+    margin-left: 40px;
+}
+
+label{
+    width: 50px;
+    font-weight: bold;
+    text-align: left;
+}
+
+input{
+    width: 60%;
+    margin-right: 10px;
+}
+
+#copyButton{
+    background-color: royalblue;
+    color: ghostwhite;
+    border: none;
+    border-radius: 10px;
+    transition: all;
+    padding: 10px 15px;
+    cursor: pointer;
+    font-size: 16px;
+    margin-top: 20px;
+}
+
+#copyButton:hover{
+    background-color: darkslateblue;
+}
+
+.footer {
+    font-family: sans-serif;
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    margin-bottom: 5px;
+    width: 100%;
+    background-color: transparent;
+    color: black;
+    text-align: center;
+}
